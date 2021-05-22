@@ -21,9 +21,9 @@
 
 |  Specifiers  | Argument | Output format |
 |:----:|:----:|:----:|
-| c   | character    |  |
-| s   | string       |  |
-| p   | pointer type |  |
-| u   | integer      |  |
-| d,i | integer      |  |
-| x,X | integer      |  |
+| c   | character    | unsinged char. |
+| s   | string       | Characters are displayed up to the first '\0' or until the precision value is reached. |
+| p   | pointer type | Display the argument as an address in hexadecimal digits. |
+| u   | integer      | Unsigned decimal integer.                                 |
+| d,i | integer      | Signed decimal integer.                                   |
+| x,X | integer      | Unsigned hexadecimal integer. x:"abcdef" X:"ABCDEF"       |
