@@ -12,18 +12,18 @@
 
 ## *flag
 
-|  flag  | |
+|  flag  | Output format |
 |:----:|:----:|
 | 0 | Fill the left side of the converted value with zeros instead of spaces.              |
 | - | Left-justify the transformed value at field boundaries. (default is right-justified) |
 
 ## *Available Conversion Specifiers
 
-|  Specifiers  | |
-|:----:|:----:|
-| c   |  |
-| s   |  |
-| p   |  |
-| u   |  |
-| d,i |  |
-| x,X |  |
+|  Specifiers  | Argument | Output format |
+|:----:|:----:|:----:|
+| c   | character    |  |
+| s   | string       |  |
+| p   | pointer type |  |
+| u   | integer      |  |
+| d,i | integer      |  |
+| x,X | integer      |  |
