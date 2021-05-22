@@ -14,8 +14,8 @@
 
 |  flag  | |
 |:----:|:----:|
-| 0 |   |
-| - |   |
+| 0 | Fill the left side of the converted value with zeros instead of spaces.              |
+| - | Left-justify the transformed value at field boundaries. (default is right-justified) |
 
 ## *Available Conversion Specifiers
 
